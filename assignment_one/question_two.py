@@ -122,6 +122,6 @@ if __name__ == "__main__":
 
     drone1.save_state("drone_state.json")
 
-    rebooted_drone = DeliveryDrone.reboot("drone_state.json")
+    rebooted_drone = DeliveryDrone.reboot("../drone_state.json")
 
     print("Rebooted Drone Battery:", rebooted_drone.battery_level)
